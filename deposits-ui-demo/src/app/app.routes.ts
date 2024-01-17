@@ -1,3 +1,40 @@
 import { Routes } from '@angular/router';
+import { HomeComponent } from './home/home.component';
+import { NavBarComponent } from './component/nav-bar/nav-bar.component';
+import { UserNavBarComponent } from './component/user-nav-bar/user-nav-bar.component';
+import { FooterComponent } from './component/footer/footer.component';
+import { DataSectionsComponent } from './component/data-sections/data-sections.component';
+import { FaqsComponent } from './component/faqs/faqs.component';
+import { HelpCenterComponent } from './component/help-center/help-center.component';
+import { PageErrorsComponent } from './component/page-errors/page-errors.component';
+import { PrivacyPolicyComponent } from './component/privacy-policy/privacy-policy.component';
+import { ProfileSectionsComponent } from './component/profile-sections/profile-sections.component';
+import { TsAndCsComponent } from './component/ts-and-cs/ts-and-cs.component';
+import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
+import { SignInComponent } from './sign-in/sign-in.component';
+import { AuditTrailsComponent } from './user-pages/audit-trails/audit-trails.component';
+import { DashboardComponent } from './user-pages/dashboard/dashboard.component';
+import { DepositOptionsComponent } from './user-pages/deposit-options/deposit-options.component';
+import { SettingsComponent } from './user-pages/settings/settings.component';
+import { TransactionHistoryComponent } from './user-pages/transaction-history/transaction-history.component';
 
-export const routes: Routes = [];
+export const routes: Routes = [
+  { path: '', component: HomeComponent },
+  { path: '', component: NavBarComponent },
+  { path: '', component: UserNavBarComponent },
+  { path: '', component: FooterComponent },
+  { path: '', component: PageErrorsComponent },
+  { path: '', component: SignInComponent },
+  { path: '', component: ForgotPasswordComponent },
+  { path: '', component: AuditTrailsComponent },
+  { path: '', component: DashboardComponent },
+  { path: '', component: DepositOptionsComponent },
+  { path: '', component: TransactionHistoryComponent },
+  { path: '', component: SettingsComponent },
+  { path: '', component: TsAndCsComponent },
+  { path: '', component: PrivacyPolicyComponent },
+  { path: '', component: FaqsComponent },
+  { path: '', component: HelpCenterComponent },
+  { path: '', component: ProfileSectionsComponent },
+  { path: '', component: DataSectionsComponent },
+];
