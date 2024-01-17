@@ -4,7 +4,9 @@
       "path": "."
     }
   ],
-  "settings": {},
+  "settings": {
+    "cSpell.words": ["rebeccapurple", "tailwindcss"]
+  },
   "extensions": {
     "recommendations": [
       "bierner.emojisense",
