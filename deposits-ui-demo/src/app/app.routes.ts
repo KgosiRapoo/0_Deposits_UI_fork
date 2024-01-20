@@ -17,24 +17,26 @@ import { DashboardComponent } from './user-pages/dashboard/dashboard.component';
 import { DepositOptionsComponent } from './user-pages/deposit-options/deposit-options.component';
 import { SettingsComponent } from './user-pages/settings/settings.component';
 import { TransactionHistoryComponent } from './user-pages/transaction-history/transaction-history.component';
+import { ContactSupportComponent } from './component/contact-support/contact-support.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: '', component: NavBarComponent },
   { path: '', component: UserNavBarComponent },
   { path: '', component: FooterComponent },
-  { path: '', component: PageErrorsComponent },
-  { path: '', component: SignInComponent },
-  { path: '', component: ForgotPasswordComponent },
-  { path: '', component: AuditTrailsComponent },
-  { path: '', component: DashboardComponent },
-  { path: '', component: DepositOptionsComponent },
-  { path: '', component: TransactionHistoryComponent },
-  { path: '', component: SettingsComponent },
-  { path: '', component: TsAndCsComponent },
-  { path: '', component: PrivacyPolicyComponent },
-  { path: '', component: FaqsComponent },
-  { path: '', component: HelpCenterComponent },
-  { path: '', component: ProfileSectionsComponent },
-  { path: '', component: DataSectionsComponent },
+  { path: 'Sign-in', component: SignInComponent },
+  { path: 'Forgot-Password', component: ForgotPasswordComponent },
+  { path: 'Audit-Trails', component: AuditTrailsComponent },
+  { path: 'Dashboard', component: DashboardComponent },
+  { path: 'Deposit-Options', component: DepositOptionsComponent },
+  { path: 'Transaction-History', component: TransactionHistoryComponent },
+  { path: 'Settings', component: SettingsComponent },
+  { path: 'Ts-And-Cs', component: TsAndCsComponent },
+  { path: 'Privacy-Policy', component: PrivacyPolicyComponent },
+  { path: 'FAQs', component: FaqsComponent },
+  { path: 'Help-Center', component: HelpCenterComponent },
+  { path: 'Profile-Sections', component: ProfileSectionsComponent },
+  { path: 'Data-Sections', component: DataSectionsComponent },
+  { path: 'Contact-Support', component: ContactSupportComponent },
+  { path: 'Page-Errors', component: PageErrorsComponent },
 ];
